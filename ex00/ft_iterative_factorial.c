@@ -21,7 +21,7 @@ int	main()
 	int	n;
 
 	printf("Number: ");
-	scanf("%d", &n);
-	printf("%u\n", ft_iterative_factorial(n));
+	scanf("%i", &n);
+	printf("%i\n", ft_iterative_factorial(n));
 	return (0);
 }
