@@ -13,7 +13,7 @@ int	main()
 	int	n;
 
 	printf("Number: ");
-	scanf("%d", &n);
-	printf("%llu\n", (unsigned long long)ft_recursive_factorial(n));
+	scanf("%i", &n);
+	printf("%i\n", ft_recursive_factorial(n));
 	return (0);
 }
