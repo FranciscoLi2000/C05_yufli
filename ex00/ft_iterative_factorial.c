@@ -1,19 +1,19 @@
 #include <unistd.h>
 int	ft_iterative_factorial(int nb)
 {
-	unsigned long long	result;
-	int			i;
+	int	factorial;
+	int	i;
 
-	result = 1;
+	factorial = 1;
 	if (nb < 0)
 		return (0);
 	i = 1;
 	while (i <= nb)
 	{
-		result = i * result;
+		factorial = i * factorial;
 		i++;
 	}
-	return ((unsigned long long)result);
+	return (factorial);
 }
 #include <stdio.h>
 int	main()
